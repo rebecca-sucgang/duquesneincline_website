@@ -1,0 +1,379 @@
+* {
+    padding: 5px;
+    font-family: "Playfair Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    margin: 5px;
+}
+body {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings;
+    width: 100%;
+}
+
+#webname {
+    background-color: #540B0E; 
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em; 
+}
+
+#banner {
+    width: 1440px;
+    display: flex;
+}
+
+.panorama {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav a {
+    align-content: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #540B0E;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #540B0E;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+th {
+    padding: 12px;
+    background-color: #335C67;
+    color: #ffffff;
+    width: fit-content;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+form, form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#webname {
+   font-size: 50px; 
+}
+
+.logo-intro-container {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro {
+    text-align: right;
+    font-size: 20px;
+}
+
+.logo {
+    width: 500px;
+}
+
+.hoisting {
+    width: 415px;
+}
+
+.history-drawing {
+    width: 415px;
+}
+
+#readLess, #longIntro, #readLess2, #longIntro2, #readLess3, #longIntro3, #readLess4, #longIntro4, #readLess5, #longIntro5, #readLess6, #longIntro6 {
+    display: none;
+ }
+ 
+ #readLess, #readMore, #readLess2, #readMore2, #readLess3, #readMore3, #readLess4, #readMore4, #readLess5, #readMore5, #readLess6, #readMore6 {
+    font-style: italic;
+    background-color: #f7f6f4;
+ }
+
+ #weather-box {
+    background-color: #f4f4f4; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px; 
+    margin: 20px auto;
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Slideshow tutotial from W3 Schools */
+* {box-sizing:border-box}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px 25px;
+    position: absolute;
+    bottom: 25px;
+    width: auto;
+    text-align: center;
+    background-color: #540B0Ecc;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slide-style {
+    width: 100%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.style-dots {
+    text-align: center;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#video {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+    font-size: 40px;
+}
+
+h5 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.fares-section {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#fares-header {
+    background-color: #335C67; 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#group-fares-header {
+    background-color: #335C67; 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+.no-bullet-points {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#construction-header {
+    background-color: rgb(224, 159, 62); 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#society-header {
+    background-color: rgb(224, 159, 62); 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#early-history-header {
+    background-color: rgb(224, 159, 62); 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#field-trip-header {
+    background-color: rgb(224, 159, 62); 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#city-tours-header {
+    background-color: rgb(224, 159, 62); 
+    color: #ffffff;
+    padding: 3px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.early-section {
+    text-align: left;
+    font-size: 20px;
+}
+
+.mainLayout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item1, .item2 {
+    flex: 1;
+    min-width: 100px;
+}
+
+.item3, .item4 {
+    flex: 1;
+    min-width: 50px;
+}
+
+#contact-footer{
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;  
+}
+
+.form-container {
+    border-radius: 100%;
+    display: inline-block;
+    border-radius: 10%;
+    outline: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tan-container {
+    width: 80%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    background-color: #e6e2df;
+    padding: 20px 40px 40px 40px;
+}
+
+.tan-container2 {
+    width: 80%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    background-color: #e6e2df;
+    padding: 20px 40px 40px 40px;
+}
+
+#social-media {
+    width: 100px;
+}
+
+#social-media2 {
+    width: 100px;
+}
+
+#social-media3 {
+    width: 100px;
+}
+
+
+footer {
+    font-style: italic;
+}
