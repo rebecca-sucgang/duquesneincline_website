@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>    
+    <script defer src="../static/script.js"></script>    
+
+    <title>Duquesne Incline</title>
+</head>
+<body>
+    <h1 id="webname">Duquesne Incline</h1>
+    <img src="../static/duqinclinebanner.png" id="banner" alt="banner image" width="1600">
+    <nav>
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="tour.html" class="nav-link">Fares and Tours</a>
+        <a href="gift.html" class="nav-link">Gift Shop</a>
+        <a href="history.html" class="nav-link">About the Incline</a>
+        <a href="faqs.html" class="nav-link">FAQs</a>
+        <a href="contact.html" class="nav-link">Contact and Find Us</a>
+    </nav>
+
+    <div class="main">
+        <h2>Fares and Tours Information</h2>
+        <h3>(Open 365 days a year, everyday from 6:30 a.m. to 12:30 a.m.)</h3>
+    </div>
+
+    <div class="tan-container">
+        <div class="fares-section">
+            <h4 id="fares-header">Single Fares:</h4>
+            <ul class="no-bullet-points">
+                <li>Adults (Ages 12-64) $2.50 Each Way or $5.00 Round Trip</li>
+                <li>Children (Ages 6-11) $1.25 Each Way or $2.50 Round Trip</li>
+                <li>Children 5 and Under Free</li>
+                <li>University of Pittsburgh Students: Free, with proper I.D.</li>
+                <li>Carnegie Mellon University Students: Free, with proper I.D.</li>
+                <li>Chatham University Students: Free, with proper I.D.</li>
+            </ul>
+        </div>
+
+        <div class="fares-section">
+            <h4 id="group-fares-header">Group Rates (valid for 10+ people):</h4>
+            <ul class="no-bullet-points">
+                <li>Adults (Ages 12-64) $1.75 Each Way or $3.50 Round Trip</li>
+                <li>Children (Ages 6-11) $1.00 Each Way or $1.75 Round Trip</li>
+            </ul>
+        </div>
+    </div>
+        
+    <div class="tan-container2">
+        <h4 id="field-trip-header">Field Trip Programs for Students and Youth Groups:</h4>
+        <div class="early-section">
+            <p>A free field trip program is available for students and youth groups of ten or 
+                more daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds
+                 and limited space. The program includes:</p>
+            <ul>
+                <li>A teacher's lesson packet for students' specific grade level</li>
+                <li>A round trip ride on the Duquesne Incline</li>
+                <li>A history of inclines in Pittsburgh</li>
+                <li>A discussion about Pittsburgh's industrial past</li>
+                <li>A visit to the machine room to observe the original hoisting equipment in 
+                    operation and learn about the engineers who built it</li>
+                <li>A panoramic view of Downtown Pittsburgh and The North Shore from our 
+                    observation deck 400 feet above the three rivers</li>
+                <li>A brief history of the French and Indian War from which the city arose</li>
+            </ul>
+            <a href="https://www.duquesneincline.org/duquesneincline/view.php?id=1" target="_blank">Click here to make reservations for field trips!</a>
+        </div>
+        <br>
+        <h4 id="city-tours-header">City Tours that Feature the Duquesne Incline:</h4>
+        <div class="early-section">
+        <ul>
+            <li>Pittsburgh Tours and More (<a href="www.pghtoursandmore.net">www.pghtoursandmore.net</a>) </li>
+            <li>Molly's Tolleys (<a href="www.mollystrolleyspgh.com">www.mollystrolleyspgh.com</a>)</li>
+            <li>Rivers of Steel (<a href="www.riversofsteel.com">www.riversofsteel.com</a>)</li>
+            <li>The Pittsburgh Tour Company (<a href="www.pghtours.com">www.pghtours.com</a>)</li>
+        </ul> 
+
+        <h2>Visitor Photo Gallery</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img class="slide-style" src="../static/PlainedgeHighSchool.jpg" alt="Plainedge-High-School">
+                <div class="text">The Plainedge High School Choir from Long Island N.Y.</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <img class="slide-style" src="../static/GirlScoutTroop1.jpg" alt="Girl-Scout-Troop-1">
+                <div class="text">Girl Scout Troop 54377</div>
+            </div>
+        
+            <div class="mySlides fade">
+                <img class="slide-style" src="../static/GirlScoutTroop2.jpg" alt="Girl-Scout Troop2">
+                <div class="text">Girl Scout Troop 54377</div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div class="style-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <footer>Banner courtesy of "Visit Pittsburgh"</footer>
+</body>
+</html>

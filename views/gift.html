@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>    
+    <script defer src="../static/script.js"></script>    
+
+    <title>Duquesne Incline</title>
+</head>
+<h1 id="webname">Duquesne Incline</h1>
+<img src="../static/duqinclinebanner.png" id="banner" alt="banner image" width="1600">
+<nav>
+    <a href="../index.html" class="nav-link">Home</a>
+    <a href="tour.html" class="nav-link">Fares and Tours</a>
+    <a href="gift.html" class="nav-link">Gift Shop</a>
+    <a href="history.html" class="nav-link">About the Incline</a>
+    <a href="faqs.html" class="nav-link">FAQs</a>
+    <a href="contact.html" class="nav-link">Contact and Find Us</a>
+</nav>
+
+<body>
+    <div class="main">
+        <h2>Visit our Gift Shop</h2>
+        <h3>Check out our one of a kind items that were custom made for the Incline!</h3>
+    </div> 
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img class="slide-style" src="../static/giftshopcover.png" alt="gift-shop-cover">
+            <div class="text">Photo of the Duquesne Incline Gift Shop</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img class="slide-style" src="../static/tramtoy.png" alt="tram-toy">
+            <div class="text">Duquesne Incline Tram Figurine</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img class="slide-style" src="../static/shotglasses.png" alt="shot-glasses">
+            <div class="text">Duquesne Incline Shot Glasses</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slide-style" src="../static/shirts.png" alt="shirts">
+            <div class="text">Duquesne Incline Shirts</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="slide-style" src="../static/decorations.png" alt="decorations">
+            <div class="text">Duquesne Incline Plates and Decorations</div>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div class="style-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <footer>Banner courtesy of "Visit Pittsburgh"</footer>
+
+</body>
+</html>
